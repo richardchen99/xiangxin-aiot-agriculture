@@ -1,0 +1,6 @@
+indicator,group,value,note
+Humidity,Normal,82,Sensor signal
+Light,Watch,61,Sensor signal
+Soil moisture,Normal,76,Sensor signal
+Pest suspicion,Review,18,Vision signal
+Edge response,Improved,64,Latency reduction percent
