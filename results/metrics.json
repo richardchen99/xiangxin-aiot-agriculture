@@ -1,0 +1,25 @@
+{
+  "project": "Xiangxin AIoT Agriculture Platform",
+  "metrics": [
+    {
+      "metric": "Review alert precision",
+      "value": "0.79",
+      "note": "Share of review alerts that match true review state"
+    },
+    {
+      "metric": "Review alert recall",
+      "value": "1.00",
+      "note": "Share of true review states captured by the edge rule model"
+    },
+    {
+      "metric": "Edge latency reduction",
+      "value": "65.1%",
+      "note": "Edge-first path versus cloud-only baseline"
+    },
+    {
+      "metric": "Generated work orders",
+      "value": "32",
+      "note": "Human-reviewable actions generated from sensor and vision signals"
+    }
+  ]
+}

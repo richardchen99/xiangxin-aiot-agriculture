@@ -1,30 +1,22 @@
-# Key Findings
+# Key Findings: Xiangxin AIoT Agriculture Platform
 
-## Project
+## Generated Metrics
 
-Xiangxin AIoT Agriculture Platform
-
-## Question
-
-How can field observations, crop images, and agricultural knowledge become a practical operating loop for growers?
-
-## Findings
-
-- **Crop alert precision:** 0.89. Synthetic validation on balanced public-safe condition classes.
-- **Edge latency reduction:** -64%. On-device inference benchmark versus cloud-only path.
-- **Action trace coverage:** 96%. Alerts mapped to recommended review or work-order state.
-
-## Methods Used
-
-- Computer Vision
-- Edge AI
-- Sensor Fusion
-- Knowledge Service
+- **Review alert precision**: 0.79. Share of review alerts that match true review state.
+- **Review alert recall**: 1.00. Share of true review states captured by the edge rule model.
+- **Edge latency reduction**: 65.1%. Edge-first path versus cloud-only baseline.
+- **Generated work orders**: 32. Human-reviewable actions generated from sensor and vision signals.
 
 ## Interpretation
 
-The project demonstrates a research workflow rather than a production claim. The results show how evidence can be transformed into a decision-ready artifact while preserving traceability, uncertainty, and human review.
+### What is actually implemented
+
+The project now simulates hourly field sensing, scores crop stress, classifies operating states, creates work-order recommendations, evaluates alert precision and recall, and regenerates the AIoT dashboard figures.
+
+### Result interpretation
+
+The strongest value is the operating loop: sensor signals and vision-inspired risk scores become traceable work orders instead of isolated model outputs.
 
 ## Public-Safe Boundary
 
-No confidential data, private credentials, personal records, or proprietary source material are included.
+This repository contains a completed, runnable research prototype built on deterministic public-safe sample data. It does not contain private datasets, credentials, personal records, proprietary reports, or sensitive operational information.

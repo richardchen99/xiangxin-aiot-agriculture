@@ -1,6 +1,5 @@
 indicator,group,value,note
-Humidity,Normal,82,Sensor signal
-Light,Watch,61,Sensor signal
-Soil moisture,Normal,76,Sensor signal
-Pest suspicion,Review,18,Vision signal
-Edge response,Improved,64,Latency reduction percent
+Review alert precision,Smart Agriculture,0.79,Share of review alerts that match true review state
+Review alert recall,Smart Agriculture,1.00,Share of true review states captured by the edge rule model
+Edge latency reduction,Smart Agriculture,65.1%,Edge-first path versus cloud-only baseline
+Generated work orders,Smart Agriculture,32,Human-reviewable actions generated from sensor and vision signals

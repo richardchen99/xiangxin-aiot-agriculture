@@ -1,0 +1,16 @@
+{
+  "slug": "xiangxin-aiot-agriculture",
+  "title": "Xiangxin AIoT Agriculture Platform",
+  "case": "Project Case 03",
+  "kind": "aiot",
+  "domain": "Smart Agriculture",
+  "description": "A completed AIoT agriculture prototype that generates field signals, classifies crop operating state, creates work orders, and benchmarks edge deployment latency.",
+  "question": "How can field observations, crop images, and agricultural knowledge become a practical operating loop for growers?",
+  "methods": [
+    "Sensor Fusion",
+    "Edge Rules",
+    "Crop State Classification",
+    "Work Orders"
+  ],
+  "seed": 202603
+}
